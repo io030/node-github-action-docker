@@ -16,7 +16,7 @@ jobs:
         image: docker:20.10.12
         options: --privileged
         ports:
-          - 8080:8080
+          - 8090:8080
 
     steps:
     - uses: actions/checkout@v3
